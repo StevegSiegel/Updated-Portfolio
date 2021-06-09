@@ -1,0 +1,374 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(66, 66, 216);
+    color: #fff;
+    padding: 1%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(223, 223, 223);
+}
+
+h1{
+    font-size: 200%;
+    color: black;
+    background-color: cyan;
+    padding: 20px;
+    font-weight: bold;
+    /* added a background color and changed formatting */
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 400px;
+}
+
+nav a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: larger;
+    background-color: cyan;
+    padding: 5px;
+}
+
+nav a:hover {
+    color: white;
+}
+
+.subhead{
+    height: 190px;
+    width: 100%;
+    margin-bottom: 25px;
+    
+    background-size: cover;
+    background-position: center;
+}
+
+figcaption {
+    float: right;
+    background-color: cyan;
+    margin-top: 110px;
+    margin-right: 60px;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 3px;
+    position:relative;
+    top: -200px;
+}
+
+.aboutme {
+    display:flex;
+    flex-direction: row;
+   
+    padding-bottom: 100px;
+    
+    width: 100%;
+    position: relative;
+    justify-content: space-between;
+    
+    
+}
+
+#aboutmeside {
+    display:flex;
+    
+    width: 20%;
+    min-width: 200px;
+    height: 400px;
+    
+   
+    font-size: 300%;
+    justify-content: space-around;
+    align-items: center;
+    border-right: 5px solid  rgb(80, 80, 255);
+    
+}
+
+#aboutmeside h2 {
+    justify-self: flex-end;
+}
+
+/* added css for the image of myself */
+#aboutmeside img{
+    height: 400px;
+    width: 200px;
+    
+    box-shadow: 10px 10px 5px grey;
+}
+
+.aboutmep{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 40px;
+    border-left-width: 0px;
+    font-size: 25px;
+    line-height: 35px;
+    color: darkcyan
+    /* updated aboutme paragrah formatting */
+}
+
+
+
+.work {
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+#workside {
+    display:flex;
+   
+    height: 400px;
+    width: 600px;
+    min-width: 200px;
+    
+    font-size: 300%;
+    justify-content: flex-end;
+    align-items: center;
+   
+    padding-right: 10px;
+
+}
+
+.projects{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+   
+    border-left: 5px solid rgb(80, 80, 255);
+    
+
+}
+
+.horiseon img{
+    display: flex;
+    opacity: .5;
+    border: 5px solid cyan;
+    justify-content: center;
+    align-self: flex-end;
+    max-height: 800px;
+    width: 1500px;
+    height: auto;
+}
+
+.horiseon img:hover{
+    opacity: 1;
+}
+
+.horiseon p{
+    background-color: darkcyan;
+    margin-top: 110px;
+    margin-right: 60px;
+    font-size: 20px;
+    padding: 3px;
+    position:relative;
+    top: -150px;
+    left: 10px;
+    font-weight: bold;
+
+}
+
+.portfolio img{
+    border: 5px solid cyan;
+    width: 800px;
+    height: 600px;
+    justify-content: center;
+    align-self: flex-end;
+    opacity: .5;
+    /* added an initial opacity */
+}
+
+.portfolio img:hover{
+    opacity: 1;
+    /* removed opacity on mouse hover */
+}
+
+.portfolio p{
+    background-color: darkcyan;
+    margin-top: 110px;
+    margin-right: 60px;
+    font-size: 20px;
+    padding: 3px;
+    position:relative;
+    top: -150px;
+    left: 10px;
+    font-weight: bold;
+}
+
+.project-3 img{
+    border: 5px solid cyan;
+    width: 800px;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    opacity: .5;
+    /* added an initial opacity */
+}
+
+.project-3 img:hover{
+    opacity: 1;
+    /* removed opacity on mouse hover */
+}
+
+.project-3 p{
+    background-color: darkcyan;
+    margin-top: 110px;
+    margin-right: 60px;
+    font-size: 20px;
+    padding: 3px;
+    position:relative;
+    top: -150px;
+    left: 10px;
+    font-weight: bold;
+}
+
+.contact {
+    display:flex;
+    flex-direction: row;
+   
+    padding-bottom: 100px;
+   
+    width: 100%;
+    position: relative;
+   
+
+
+}
+
+#contactside{
+    display: flex;
+    width: 450px;
+    min-width: 200px;
+   
+    flex-wrap:wrap;
+    font-size: 300%;
+    height: 400px;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px;
+    border-right: 5px solid rgb(80, 80, 255);
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    flex: 100%;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.info a{
+    color: black;
+    font-weight: bold;
+    text-decoration: underline 5px solid lightblue;
+    font-size: 30px;
+}
+
+.info a:hover{
+    color: darkcyan;
+}
+/* changed contact a color */
+
+.resume{
+    display:flex;
+    flex-direction: row;
+   
+    padding-bottom: 100px;
+   
+    width: 100%;
+    position: relative;
+}
+
+#resumeside{
+    display: flex;
+    width: 450px;
+    min-width: 200px;
+    
+    flex-wrap:wrap;
+    font-size: 300%;
+    height: 400px;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px;
+    border-right: 5px solid rgb(80, 80, 255);
+}
+
+.resmain {
+    display:flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.resmain img{
+    border: 5px solid cyan;
+    height: 300px;
+    width: 500px;
+    justify-content: center;
+    align-self: flex-end;
+    opacity: .5;
+    /* added and initial opacity */
+}
+
+.resmain img:hover{
+    opacity: 1;
+    /* removed resume img opacity on mouse hover */
+}
+
+.resmain p{
+    background-color: darkcyan;
+    margin-top: 110px;
+    margin-right: 60px;
+    font-size: 20px;
+    padding: 3px;
+    position:relative;
+    top: 79px;
+    right: 503px;
+
+}
+
+
+/* added css to modify the footer */
+footer{
+    background-color: darkcyan;
+    height: 100px;
+    width: auto;
+}
+
+@media screen and (max-width: 2000px) {
+    .horiseon img {
+      width: 1000px;
+    }
+  }
+
+@media  screen and (max-width: 1230px) {
+    .horiseon img {
+        width: 500px;
+    }
+}
+
+@media  screen and (max-width: 1230px) {
+    .portfolio img {
+        width: 500px;
+        height: 500px;
+    }
+}
+
+@media  screen and (max-width: 1230px) {
+    .project-3 img {
+        width: 500px;
+        height: 500px;
+    }
+}
